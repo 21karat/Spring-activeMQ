@@ -1,13 +1,13 @@
-##Spring-activeMQ学习Demo</br>
-##[原文地址](https://github.com/shenzhanwang/Spring-activeMQ)
-###主要流程：</br>
-####1.通过接口添加消息,有两种：</br>
+## Spring-activeMQ学习Demo</br>
+## [原文地址](https://github.com/shenzhanwang/Spring-activeMQ)
+### 主要流程：</br>
+#### 1.通过接口添加消息,有两种：</br>
 * 一种是点对点方式向队列中添加消息
 * 另一种是以发布订阅方式向主题中添加消息
-####2.通过监听来主动将队列(主题)中的消息取出消费掉</br>
-####3.通过websocket将取出的消息发送到页面进行展示</br>
+#### 2.通过监听来主动将队列(主题)中的消息取出消费掉</br>
+#### 3.通过websocket将取出的消息发送到页面进行展示</br>
 
-###总结：</br>
+### 总结：</br>
 这个Demo主要是区分两种添加activeMQ消息方式的区别,体现activeMQ两个知识点：</br>
 * 点对点方式向队列中添加消息,每个消息只能有一个消费者
 * 发布与订阅方式向主题中添加消息,每个消息可以有多个消费者
